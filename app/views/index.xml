@@ -1,18 +1,7 @@
 <Alloy>
 	<TabGroup>
 		<Tab title="Info">
-			<Window layout="vertical">
-				<Label id="titulo">VideoOpen</Label>
-				<ImageView id ="foto"></ImageView>
-				<ScrollView id="presentacion" showVerticalScrollIndicator="true" height="40%" width="60%">
-					<Label id ="texto_presentacion" text="El mejor videoclub de Sevilla, ubicado en el prestigioso barrio de Pino Montano, cuenta con una amplia selección de cine y música que hará las delicias de todos nuestros clientes. Esperamos tu visita en nuestras instalaciones en Calle Victoria Kent, 5 de Sevilla" />
-				</ScrollView>
-				<View layout="horizontal" >
-					<Button id="llamar" onClick="llamar"></Button>
-					<Button id="internet" onClick="internet"></Button>
-					<Button id="correo" onClick="correo"></Button>
-				</View>
-			</Window>
+			<Require id='info_view' src='info' type='view' />
 		</Tab>
 		<Tab title="">
 			<Window>

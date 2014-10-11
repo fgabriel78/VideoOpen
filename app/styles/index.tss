@@ -1,42 +1,4 @@
-"Window": {
-	backgroundColor: "#fff"
-}
 
-"Label": {
-	width: Ti.UI.SIZE,
-	height: Ti.UI.SIZE,
-	color: "#000",
-	font: {
-		fontSize: 20,
-		fontFamily: 'Helvetica Neue'
-		
-	},
-	textAlign: 'center'
-} 
 
-"#titulo": {
-font: {
-		fontSize: 30,
-		fontFamily: 'Helvetica Neue',
-		fontWeight: 'bold' 
-	},
-	textAlign: 'center'	
-	
-}
 
-"#foto": {
-	image: '/images/videoclub.jpg',
-	align: 'center'
-}
 
-"#llamar": {
-	image: '/images/phone.png'
-}
-
-"#correo": {
-	image: '/images/mail.png'
-}
-
-"#internet": {
-	image: '/images/internet.png'
-}

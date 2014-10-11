@@ -1,0 +1,16 @@
+<Alloy>
+	<Window layout="vertical">
+		<Label id="titulo">VideoOpen</Label>
+		<ImageView id ="foto"></ImageView>
+		<ScrollView id="presentacion">
+			<Label id ="texto_presentacion"/>
+		</ScrollView>
+		<View id="padre_botonera">
+			<View id="botonera">
+				<Button id="llamar" onClick="llamar" />
+				<Button id="internet" onClick="internet" />
+				<Button id="correo" onClick="correo" />
+			</View>
+		</View>
+	</Window>
+</Alloy>

@@ -1,0 +1,69 @@
+"Window": {
+	backgroundColor: "#fff"
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+
+	font: {
+		fontSize: 20,
+		fontFamily: 'Helvetica Neue'
+		
+	},
+	textAlign: 'center'
+} 
+
+"#titulo": {
+font: {
+		fontSize: 30,
+		fontFamily: 'Helvetica Neue',
+		fontColor: 'red' 
+	},
+	textAlign: 'center'	
+	
+}
+
+"#foto": {
+	image: '/images/videoclub.jpg',
+	align: 'center'
+}
+
+"#padre_botonera": {
+	width: Ti.UI.FILL
+}
+
+"#botonera": {	
+	layout: 'horizontal',
+	height: Ti.UI.SIZE,
+    width: Ti.UI.SIZE
+}
+
+"#llamar": {
+	backgroundImage: '/images/phone.png',
+	width: 64,
+	height: 64	
+}
+
+"#correo": {
+	backgroundImage: '/images/mail.png',
+	width: 64,
+	height: 64
+}
+
+"#internet": {
+	backgroundImage: '/images/internet.png',
+	width: 64,
+	height: 64
+}
+
+"#texto_presentacion": {
+	text: 'El mejor videoclub de Sevilla, ubicado en el prestigioso barrio de Pino Montano, cuenta con una amplia selección de cine y música que hará las delicias de todos nuestros clientes. Esperamos tu visita en nuestras instalaciones en Calle Victoria Kent, 5 de Sevilla'
+}
+
+"#presentacion": {
+	showVerticalScrollIndicator: 'true',
+	height: '40%', 
+	width: '60%'
+}
+
