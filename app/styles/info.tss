@@ -14,19 +14,25 @@
 	textAlign: 'center'
 } 
 
+"#contenedor": {
+	width: Ti.UI.FILL
+}
+
 "#titulo": {
 font: {
 		fontSize: 30,
-		fontFamily: 'Helvetica Neue',
-		fontColor: 'red' 
+		fontFamily: 'Helvetica Neue'		
 	},
-	textAlign: 'center'	
+	textAlign: 'center'	,
+	color: 'red' 
 	
 }
 
 "#foto": {
-	image: '/images/videoclub.jpg',
-	align: 'center'
+	image: '/images/videoclub2.jpg',
+	align: 'center',
+	height: '35%', 
+	width: '40%'
 }
 
 "#padre_botonera": {
@@ -40,19 +46,19 @@ font: {
 }
 
 "#llamar": {
-	backgroundImage: '/images/phone.png',
+	backgroundImage: '/images/phone2.png',
 	width: 64,
 	height: 64	
 }
 
 "#correo": {
-	backgroundImage: '/images/mail.png',
+	backgroundImage: '/images/mail2.png',
 	width: 64,
 	height: 64
 }
 
 "#internet": {
-	backgroundImage: '/images/internet.png',
+	backgroundImage: '/images/internet2.png',
 	width: 64,
 	height: 64
 }
