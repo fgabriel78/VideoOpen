@@ -15,7 +15,7 @@ function buscar(e) {
 								ano: {text: resp.movies[i].year}, 
 								foto: {image: resp.movies[i].posters.thumbnail},
 								valoracion: {text:resp.movies[i].ratings.critics_rating},
-								foto2: {image: resp.movies[i].posters.detailed}}
+								foto2: {image: resp.movies[i].posters.original}}
 				}
 				$.seccion_lista_peliculas.setItems(datos);
 			}
