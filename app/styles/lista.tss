@@ -1,0 +1,22 @@
+
+
+"#lista_peliculas" : {
+	backgroundColor: 'white',
+	color: 'black',
+	height: '85%',
+	defaultItemTemplate: 'plantilla_pelicula'
+}
+
+"#icon" : {
+    width: '50dp', height: '50dp', left: 0
+},
+"#title" : {
+    color: 'black',
+    font: { fontFamily:'Arial', fontSize: '11dp', fontWeight:'bold' },
+    left: '60dp', top: 0
+},
+"#subtitle" : {
+    color: 'gray',
+    font: { fontFamily:'Arial', fontSize: '10dp' },
+    left: '60dp', top: '25dp'
+}

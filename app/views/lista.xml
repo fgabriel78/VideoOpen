@@ -1,0 +1,18 @@
+<Alloy>	
+	<Window id="ventana_lista">
+		<SearchBar id="buscar" barColor="#000" showCancel="true" height="43" top="0" onReturn="buscar"/>
+		<ListView id="lista_peliculas">	
+			<Templates>                
+                <ItemTemplate name="plantilla_pelicula">
+                    <ImageView bindId="foto" id="icon" />
+                    <Label bindId="titulo" id="title" />
+                    <Label bindId="ano" id="subtitle" />
+                </ItemTemplate>
+            </Templates>
+		
+	        <ListSection id="seccion_lista_peliculas">
+	            
+	        </ListSection>
+    	</ListView>
+	</Window>
+</Alloy>

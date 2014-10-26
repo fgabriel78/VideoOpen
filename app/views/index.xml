@@ -3,10 +3,8 @@
 		<Tab title="Info">
 			<Require id='info_view' src='info' type='view' />
 		</Tab>
-		<Tab title="">
-			<Window>
-				
-			</Window>
+		<Tab title="Películas">
+			<Require id='lista_view' src='lista' type='view' />
 		</Tab>
 		<Tab title="">
 			<Window>
