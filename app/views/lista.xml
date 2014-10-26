@@ -1,7 +1,7 @@
 <Alloy>	
 	<Window id="ventana_lista">
 		<SearchBar id="buscar" barColor="#000" showCancel="true" height="43" top="0" onReturn="buscar"/>
-		<ListView id="lista_peliculas">	
+		<ListView id="lista_peliculas" onItemclick="detallePelicula">	
 			<Templates>                
                 <ItemTemplate name="plantilla_pelicula">
                     <ImageView bindId="foto" id="icon" />

@@ -1,0 +1,25 @@
+
+".container" : {
+  	modal:'true',
+  	layout: 'vertical',
+  	backgroundColor: 'white'
+}
+
+"#poster" : {
+	top: 20,
+    width: '200dp', height: '200dp'
+},
+"#titulo" : {
+    color: 'black',
+    font: { fontFamily:'Arial', fontSize: '11dp', fontWeight:'bold' },
+    textAlign: 'center'
+},
+"#ano" : {
+    color: 'gray',
+    font: { fontFamily:'Arial', fontSize: '10dp' },
+    testAlign: 'center'
+}
+
+"#cerrar": {
+	title: 'Cerrar'
+}

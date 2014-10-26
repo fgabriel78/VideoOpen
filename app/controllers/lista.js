@@ -1,7 +1,8 @@
 var args = arguments[0] || {};
+var datos = [];
 
 function buscar(e) {
-	var datos = [];
+	datos = [];
 	
 	if ($.buscar.value !='') {
 		$.lista_peliculas.data = [];
@@ -12,10 +13,16 @@ function buscar(e) {
 					
 					datos[i] = {titulo: {text: resp.movies[i].title}, 
 								ano: {text: resp.movies[i].year}, 
-								foto: {image: resp.movies[i].posters.thumbnail}}
+								foto: {image: resp.movies[i].posters.thumbnail},
+								valoracion: {text:resp.movies[i].ratings.critics_rating},
+								foto2: {image: resp.movies[i].posters.detailed}}
 				}
 				$.seccion_lista_peliculas.setItems(datos);
 			}
 		});
 	} 
+}
+
+function detallePelicula(e) {
+	Alloy.createController("detalle", {info: datos[e.itemIndex]}).getView().open();
 }

@@ -1,0 +1,9 @@
+<Alloy>
+	<Window class="container" id="detalle">
+		<ImageView id="poster" />
+		<Label id ="titulo" />
+		<Label id="ano" />
+		<Label id="critica" />
+		<Button id="cerrar" onClick="cerrar"/>
+	</Window>
+</Alloy>
